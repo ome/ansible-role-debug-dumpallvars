@@ -18,6 +18,9 @@ install:
   # Check ansible version
   - ansible --version
 
+  # Symlink to handle the addition of "ansible-" in the github repo name.
+  - ln -s $(pwd)/../ansible-debug-dumpallvars $(pwd)/../debug-dumpallvars
+
   # Create ansible.cfg with correct roles_path
   - printf '[defaults]\nroles_path=../' >ansible.cfg
 

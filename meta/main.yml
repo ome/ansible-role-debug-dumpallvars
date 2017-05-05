@@ -1,6 +1,6 @@
 galaxy_info:
   author: OME
-  description: 
+  description: Dump all variables to a file on the remote host.
   company: Open Microscopy Environment
   
   # If the issue tracker for your role is not on github, uncomment the
@@ -14,7 +14,7 @@ galaxy_info:
   # - GPLv3
   # - Apache
   # - CC-BY
-  license: license (GPLv2, CC-BY, etc)
+  license: BSD
   
   min_ansible_version: 1.2
 
@@ -31,16 +31,10 @@ galaxy_info:
   # the ones that apply to your role. If you don't see your
   # platform on this list, let us know and we'll get it added!
   #
-  #platforms:
-  #- name: EL
-  #  versions:
-  #  - all
-  #  - 5
-  #  - 6
-  #  - 7
-  #- name: GenericUNIX
-  #  versions:
-  #  - all
+  platforms:
+  - name: GenericUNIX
+    versions:
+    - all
   #  - any
   #- name: Solaris
   #  versions:

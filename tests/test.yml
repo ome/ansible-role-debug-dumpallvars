@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - debug-dumpallvars
+    - ansible-role-debug-dumpallvars

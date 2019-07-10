@@ -152,6 +152,7 @@ galaxy_info:
   #  - stretch
   #  - wheezy
   
+  role_name: debug_dumpallvars
   galaxy_tags:
       - debug
     # List tags for your role here, one per line. A tag is

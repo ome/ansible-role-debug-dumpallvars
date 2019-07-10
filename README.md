@@ -2,7 +2,7 @@ Debug Dump All Vars
 ===================
 
 [![Build Status](https://travis-ci.org/ome/ansible-role-debug-dumpallvars.svg)](https://travis-ci.org/ome/ansible-role-debug-dumpallvars)
-[![Ansible Role](https://img.shields.io/ansible/role/41958.svg)](https://galaxy.ansible.com/ome/celery_debug_dumpallvars/)
+[![Ansible Role](https://img.shields.io/ansible/role/41958.svg)](https://galaxy.ansible.com/ome/debug_dumpallvars/)
 
 Dump all variables to a file on the remote host.
 
